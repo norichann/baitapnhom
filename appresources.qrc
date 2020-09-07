@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>icons/bold.png</file>
+    </qresource>
+</RCC>
