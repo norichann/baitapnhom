@@ -14,9 +14,9 @@ A Basic text-editing app which allows you to  Bold / Unbold an individual text.
 ```sh
 $ sudo apt-get install qt5-default
 ```
-* Go to folder "Text-Editor", compile Text-Editor.pro and make:
+* Go to folder "Text-Editor-Qt", compile Text-Editor.pro and make:
 ```sh
-$ cd Text-Editor
+$ cd Text-Editor-Qt
 $ qmake Text-Editor.pro
 $ make
 ```
