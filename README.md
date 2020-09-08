@@ -20,7 +20,6 @@ $ cd Text-Editor-Qt
 $ qmake Text-Editor.pro
 $ make
 ```
-Ignore the warnings. 
 
 ### How to run the code?
 
