@@ -7,7 +7,7 @@ A Basic text-editing app which allows you to  Bold / Unbold an individual text.
 
 ### Ubuntu and Qt version
 
-  - Compiled and Tested on Ubuntu 18.04 with Qt 5
+  - Compiled and Tested on Ubuntu 18.04 with Qt 5.
 
 ### Installation
 * Install qt5:
