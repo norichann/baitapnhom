@@ -17,7 +17,11 @@ public:
 
 private slots:
     void on_actionBold_triggered(bool checked);
-
+    void on_actionColor_triggered(bool checked);
+    void on_actionNormal_triggered(bool checked);
+    void on_actionFont_triggered(bool checked);
+    void on_actionItalic_triggered(bool checked);
+    void on_actionUnderline_triggered(bool checked);
 private:
     Ui::MyTextEditor *ui;
 };

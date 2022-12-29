@@ -23,6 +23,12 @@
       <height>70</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -49,12 +55,20 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
+   <addaction name="actionNormal"/>
    <addaction name="actionBold"/>
+   <addaction name="actionColor"/>
+   <addaction name="actionFont"/>
+   <addaction name="actionItalic"/>
+   <addaction name="actionUnderline"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionBold">
    <property name="checkable">
     <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
    </property>
    <property name="icon">
     <iconset resource="appresources.qrc">
@@ -65,6 +79,69 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionColor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="appresources.qrc">
+     <normaloff>:/Images/icons/c.png</normaloff>:/Images/icons/c.png</iconset>
+   </property>
+   <property name="text">
+    <string>Color</string>
+   </property>
+   <property name="toolTip">
+    <string>color</string>
+   </property>
+  </action>
+  <action name="actionNormal">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="appresources.qrc">
+     <normaloff>:/Images/icons/n.png</normaloff>:/Images/icons/n.png</iconset>
+   </property>
+   <property name="text">
+    <string>Normal</string>
+   </property>
+  </action>
+  <action name="actionFont">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="appresources.qrc">
+     <normaloff>:/Images/icons/musical-symbol-of-letter-f.png</normaloff>:/Images/icons/musical-symbol-of-letter-f.png</iconset>
+   </property>
+   <property name="text">
+    <string>Font</string>
+   </property>
+  </action>
+  <action name="actionItalic">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="appresources.qrc">
+     <normaloff>:/Images/icons/i.png</normaloff>:/Images/icons/i.png</iconset>
+   </property>
+   <property name="text">
+    <string>Italic</string>
+   </property>
+  </action>
+  <action name="actionUnderline">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="appresources.qrc">
+     <normaloff>:/Images/icons/u.png</normaloff>:/Images/icons/u.png</iconset>
+   </property>
+   <property name="text">
+    <string>Underline</string>
    </property>
   </action>
  </widget>
